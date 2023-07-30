@@ -1,0 +1,83 @@
+[
+  {
+    "description": "  As a lichess user\n  I want to login to the platform\n  So that I can utilise platform features",
+    "keyword": "Feature",
+    "name": "lichess login",
+    "line": 2,
+    "id": "lichess-login",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "lichess-login;successful-login-as-auto-customer",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successful login as auto customer",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user navigates to lichess home page",
+            "result": {
+              "status": "passed",
+              "duration": 9284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks login",
+            "result": {
+              "status": "passed",
+              "duration": 2077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "lands on login page",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "on logging in as a user",
+            "result": {
+              "status": "passed",
+              "duration": 2871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user can validate logged in state",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

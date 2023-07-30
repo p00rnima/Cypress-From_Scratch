@@ -1,0 +1,17 @@
+{
+    "chromeWebSecurity": false,
+    "viewportWidth": 1280,
+    "viewportHeight": 660,
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 30000,
+    "reporter": "mochawesome",
+    "testFiles": "**/*.feature",
+    "retries": {
+        "runMode": 1
+    },
+    "env": {
+        "baseURL": "https://lichess.org/",
+        "userName":"AkshataB",
+        "password":"29062014"
+    }
+}

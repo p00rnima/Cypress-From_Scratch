@@ -1,0 +1,295 @@
+[
+  {
+    "description": "  As a self serve customer\n  I want to create reward link order using self serve\n  So that I can redeem the reward link",
+    "keyword": "Feature",
+    "name": "Create order using self serve",
+    "line": 2,
+    "id": "create-order-using-self-serve",
+    "tags": [
+      {
+        "name": "@wegift-ui",
+        "line": 1
+      },
+      {
+        "name": "@order-reward-link",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "Order.feature",
+    "elements": [
+      {
+        "id": "create-order-using-self-serve;create-reward-link-order-and-validate-create-another-order-works-fine--new-card-payment",
+        "keyword": "Scenario",
+        "line": 140,
+        "name": "Create reward link order and validate create another order works fine- new card payment",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-link",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 19746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 110,
+            "name": "the user navigates to create order page",
+            "result": {
+              "status": "passed",
+              "duration": 2346000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "reward_value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "IE",
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 111,
+            "name": "the user fills in the order details - percy screenshot",
+            "result": {
+              "status": "failed",
+              "duration": 14292000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `select`, but never found it.\n    at Context.eval (https://app.sandbox.wegift.io/__cypress/tests?p=cypress/support/index.js:53:6)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 114,
+            "name": "the user selects all brands from brands page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 115,
+            "name": "the user navigates to quantity page and selects reward links option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "the user fills number of reward links as '13'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 117,
+            "name": "the user navigates to payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 118,
+            "name": "the user fills in the payment card details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 119,
+            "name": "the user clicks confirm and pay button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 120,
+            "name": "the user fills and submits 3d secure pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 121,
+            "name": "the user should be redirected to successful order created page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 122,
+            "name": "user clicks on create another order",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "reward_value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "IE",
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 124,
+            "name": "the user fills in the order details - percy screenshot",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 127,
+            "name": "the user selects all brands from brands page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 128,
+            "name": "the user navigates to quantity page and selects reward links option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 129,
+            "name": "the user fills number of reward links as '5'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 130,
+            "name": "the user navigates to payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 131,
+            "name": "the user fills in the payment card details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 132,
+            "name": "the user clicks confirm and pay button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 133,
+            "name": "the user fills and submits 3d secure pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 134,
+            "name": "the user should be redirected to successful order created page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ireland"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 135,
+            "name": "the user should be able to verify the order details confirming the country ordered",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

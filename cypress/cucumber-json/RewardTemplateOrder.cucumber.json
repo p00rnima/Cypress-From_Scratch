@@ -1,0 +1,631 @@
+[
+  {
+    "description": "    As a self serve customer\n    I want to create reward link order using self serve default template\n    So that I can redeem the reward link",
+    "keyword": "Feature",
+    "name": "Create order using default templates in self serve",
+    "line": 2,
+    "id": "create-order-using-default-templates-in-self-serve",
+    "tags": [
+      {
+        "name": "@wegift-ui",
+        "line": 1
+      },
+      {
+        "name": "@order-reward-template",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "RewardTemplateOrder.feature",
+    "elements": [
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-see-templates-based-on-country-selection",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "User is able to see templates based on country selection",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "currency"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "US",
+                      "USD"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user selects country from the drop down he can see template with relevant currency",
+            "result": {
+              "status": "passed",
+              "duration": 203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "on click of close button user lands back in homepage",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-see-step1-order-page-based-on-the-selected-template",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "User is able to see step1 order page based on the selected template",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 11416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "template"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Happy Birthday"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user selects a template",
+            "result": {
+              "status": "passed",
+              "duration": 2101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user lands on the step1 order journey based on templates theme",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-see-step1-order-page-based-on-the-selected-template",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "User is able to see step1 order page based on the selected template",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 7662000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "template"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Health & Fitness"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user selects a template",
+            "result": {
+              "status": "passed",
+              "duration": 2113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user lands on the step1 order journey based on templates theme",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-see-step1-order-page-based-on-the-selected-template",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "User is able to see step1 order page based on the selected template",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "template"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Work Anniversary"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user selects a template",
+            "result": {
+              "status": "passed",
+              "duration": 2119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user lands on the step1 order journey based on templates theme",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-see-step1-order-page-based-on-the-selected-template",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "User is able to see step1 order page based on the selected template",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 7860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "template"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Team Lunch"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user selects a template",
+            "result": {
+              "status": "passed",
+              "duration": 2142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user lands on the step1 order journey based on templates theme",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-see-step1-order-page-based-on-the-selected-template",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "User is able to see step1 order page based on the selected template",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "template"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Thank You!"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user selects a template",
+            "result": {
+              "status": "passed",
+              "duration": 2157000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user lands on the step1 order journey based on templates theme",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order-using-default-templates-in-self-serve;user-is-able-to-complete-order-journey-using-a-default-template",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "User is able to complete order journey using a default template",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-template",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 8173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user clicks on the hyperlink to view all templates",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "user selects a default template for 'Happy Birthday'",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "user can see default brands selected",
+            "result": {
+              "status": "passed",
+              "duration": 3021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "user is able to change the giftcard value to '200'",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "user proceeds to select quantity",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "emailid"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "test@wegift.io"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 40,
+            "name": "user enters emailid to deliver the gift cards to recipients",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find content: 'Add' but never did.\n    at Context.eval (https://app.sandbox.wegift.io/__cypress/tests?p=cypress/support/index.js:30:6)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "on submission on email list user lands on payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "the user makes payment with saved card in payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "user is able to verify the order details",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

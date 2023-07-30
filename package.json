@@ -1,0 +1,37 @@
+{
+  "name": "qa_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "^1.11.0",
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^9.5.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-xpath": "^1.8.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^9.2.1",
+    "csvtojson": "^2.0.10",
+    "fs-extra": "^10.0.0",
+    "json2csv": "^5.0.6",
+    "moment": "^2.29.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

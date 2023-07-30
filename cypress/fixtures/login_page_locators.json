@@ -1,0 +1,8 @@
+{
+    "signin_button":"a[class='signin button button-empty']",
+    "login_modal":"main[class='auth auth-login box box-pad']",
+    "username_xpath":"input[name='username']",
+    "password_xpath":"input[name=password]",
+    "app_login_button_xpath": "#main-wrap > main > form > div.one-factor > button",
+    "homePage_user_tag":"#user_tag"
+    }

@@ -1,0 +1,540 @@
+[
+  {
+    "description": "  As a Runa customer\n  I want to create bulk order by uploading my CSV file ",
+    "keyword": "Feature",
+    "name": "Create bulk order using Runa",
+    "line": 2,
+    "id": "create-bulk-order-using-runa",
+    "tags": [
+      {
+        "name": "@wegift-ui",
+        "line": 1
+      },
+      {
+        "name": "@order-reward-link",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "BulkOrder.feature",
+    "elements": [
+      {
+        "id": "create-bulk-order-using-runa;create-reward-link-order-using-individual-order-in-runa--new-card-payment",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Create reward link order using Individual order in Runa- new card payment",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-link",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@positive",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3790000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user has the BulkOrder flag turned on",
+            "result": {
+              "status": "failed",
+              "duration": 18000000,
+              "error_message": "CypressError: `cy.visit()` failed because you are attempting to visit a URL that is of a different origin.\n\nThe new URL is considered a different origin because the following parts of the URL are different:\n\n  > superdomain\n\nYou may only `cy.visit()` same-origin URLs within a single test.\n\nThe previous URL you visited was:\n\n  > 'https://8b372e4a.two-ui.pages.dev'\n\nYou're attempting to visit this URL:\n\n  > 'https://app.sandbox.wegift.io'\n\nYou may need to restructure some of your test code to avoid this problem.\n    at cannotVisitDifferentOrigin (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:158333:72)\n    at go (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159160:18)\n    at visit (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159350:16)\n    at Context.visit (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159353:14)\nFrom Your Spec Code:\n    at Context.eval (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:187:6)\n    at Context.resolveAndRunStepDefinition (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:13838:29)\n    at Context.eval (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:13159:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user navigates to create order page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user selects an option between Quick Order and Bulk Order",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user selects 'Individual Order'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user lands in step1 order page for 'Quick Order'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country",
+                      "reward_value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "IE",
+                      "10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user fills in the order details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "the user selects all brands from brands page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the user proceeds to upload page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "the user navigates to quantity page and selects reward links option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "the user fills number of reward links as '13'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the user navigates to payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user fills in the payment card details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user clicks confirm and pay button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the user fills and submits 3d secure pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the user should be redirected to successful order created page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ireland"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the user should be able to verify the order details confirming the country ordered",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-bulk-order-using-runa;create-reward-link-order-using-bulk-order-in-runa---saved-card-payment",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "Create reward link order using Bulk order in Runa - saved card payment",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-link",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user has the BulkOrder flag turned on",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed because you are attempting to visit a URL that is of a different origin.\n\nThe new URL is considered a different origin because the following parts of the URL are different:\n\n  > superdomain\n\nYou may only `cy.visit()` same-origin URLs within a single test.\n\nThe previous URL you visited was:\n\n  > 'https://8b372e4a.two-ui.pages.dev'\n\nYou're attempting to visit this URL:\n\n  > 'https://app.sandbox.wegift.io'\n\nYou may need to restructure some of your test code to avoid this problem.\n    at cannotVisitDifferentOrigin (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:158333:72)\n    at go (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159160:18)\n    at visit (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159350:16)\n    at Context.visit (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159353:14)\nFrom Your Spec Code:\n    at Context.eval (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:187:6)\n    at Context.resolveAndRunStepDefinition (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:13838:29)\n    at Context.eval (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:13159:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "the user navigates to create order page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "the user selects an option between Quick Order and Bulk Order",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "user selects 'Bulk Order'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "user lands in step1 order page for 'Bulk Order'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "country"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "IE"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the user fills in the order details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the user selects all brands from brands page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "the user proceeds to upload page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "user is navigated to file upload page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "user succesfully uploads the csv file with order details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the user navigates to payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "user clicks on review order CTA",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "validates the order summary",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "user can close the summary and return to payment page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "the user fills in the payment card details",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "the user clicks confirm and pay button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "the user fills and submits 3d secure pop up",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "the user should be redirected to successful order created page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Ireland"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 58,
+            "name": "the user should be able to verify the order details confirming the country ordered",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-bulk-order-using-runa;validate-back-button-in-create-order-page---on-click-navigates-user-back-to-home-page",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Validate back button in create order page - on click navigates user back to home page",
+        "tags": [
+          {
+            "name": "@wegift-ui",
+            "line": 1
+          },
+          {
+            "name": "@order-reward-link",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is logged in as DD breakage customer and on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 3160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user has the BulkOrder flag turned on",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed because you are attempting to visit a URL that is of a different origin.\n\nThe new URL is considered a different origin because the following parts of the URL are different:\n\n  > superdomain\n\nYou may only `cy.visit()` same-origin URLs within a single test.\n\nThe previous URL you visited was:\n\n  > 'https://8b372e4a.two-ui.pages.dev'\n\nYou're attempting to visit this URL:\n\n  > 'https://app.sandbox.wegift.io'\n\nYou may need to restructure some of your test code to avoid this problem.\n    at cannotVisitDifferentOrigin (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:158333:72)\n    at go (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159160:18)\n    at visit (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159350:16)\n    at Context.visit (https://8b372e4a.two-ui.pages.dev/__cypress/runner/cypress_runner.js:159353:14)\nFrom Your Spec Code:\n    at Context.eval (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:187:6)\n    at Context.resolveAndRunStepDefinition (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:13838:29)\n    at Context.eval (https://8b372e4a.two-ui.pages.dev/__cypress/tests?p=cypress/integration/CucumberBDD/BulkOrder.feature:13159:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 67,
+            "name": "the user navigates to create order page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "the user selects an option between Quick Order and Bulk Order",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "on click of back button user navigates back to home page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

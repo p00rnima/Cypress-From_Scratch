@@ -11,7 +11,7 @@
     },
     "env": {
         "baseURL": "https://lichess.org/",
-        "userName":"AkshataB",
-        "password":"29062014"
+        "userName":"",
+        "password":""
     }
 }
